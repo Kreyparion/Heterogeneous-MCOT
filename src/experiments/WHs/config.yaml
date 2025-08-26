@@ -1,0 +1,40 @@
+vol: 0.2        # Volume in m3
+height: 1.37    # Height in m
+EI: 0.035       # Thickness of isolation (in m)
+powerRes: 2200  # Heat resistance power in W
+
+heterogeneous: False
+max_vol: 0.3
+min_vol: 0.1
+max_height: 2
+min_height: 0.8
+max_EI: 0.05
+min_EI: 0.02
+max_powerRes: 1500
+min_powerRes: 2900
+
+
+rho: 1000       # water density in kg.m-3
+capWater: 4185  # heat capacity of water in J.kg-1.K-1
+CI: 0.033       # heat conductivity isolant in W/(m K)
+
+T_floor: 17
+T_amb: 17
+Tmax: 65
+Tmin: 50
+
+TEnd: 1440
+dt: 10
+
+TEnd2: 1440
+dt2: 20
+
+KLQ_sto: False
+A: 50
+
+epsilon: 1
+epsilon2: 100
+lr: 0.4
+K: 100
+
+density_init_m: 0.25
