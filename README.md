@@ -21,7 +21,7 @@ In the folder `src/experiments/RealEVs`, launch the `main.py` file to run the Mo
 
 ### Water Heaters (WHs)
 
-We optimize the consumption of a fleet of 1000 WHs by using real data from the [SMACH Platform](https://hal.science/hal-03195500/document).
+We optimize the consumption of a fleet of 1000 WHs by using averaged data from the [SMACH Platform](https://hal.science/hal-03195500/document).
 
 In the folder `src/experiments/WHs`, launch the `main.py` file to run the Model Predictive Control(MPC) optimization with the WHs only. This is also the second result shown in `examples.ipynb`.
 
