@@ -21,10 +21,13 @@ In the folder `src/experiments/RealEVs`, launch the `main.py` file to run the Mo
 
 ### Water Heaters (WHs)
 
-We optimize the consumption of a fleet of 1000 WHs by using averaged data from the [SMACH Platform](https://hal.science/hal-03195500/document).
+We optimize the consumption of a fleet of 1000 WHs by using averaged data from the [SMACH Platform](https://hal.science/hal-03195500/document)\*.
 
 In the folder `src/experiments/WHs`, launch the `main.py` file to run the Model Predictive Control(MPC) optimization with the WHs only. This is also the second result shown in `examples.ipynb`.
 
 ### Combination of both WHs and EVs
 
 In the folder `src/experiments/RealEVsandWHs`, launch the `main.py` file to run the Model Predictive Control(MPC) optimization with both Whs and EVs. This is also the last result shown in `examples.ipynb`.
+
+------
+\* The data used is the same as in Moreno, B., Brégère, M., Gaillard, P., Oudjane, N., Online Convex Optimization for Demand-Side Management: Application to Thermostatically Controlled Loads. J. Optim. Theory Appl. 205, 43 (2025). https://doi.org/10.1007/s10957-025-02658-9. The original data can be found here https://github.com/biancammoreno/tcl-online-control.
